@@ -1,0 +1,22 @@
+<view class="container">
+<view class="Con">
+<text>照片</text>
+<text>pic</text>
+</view>
+<view class="Con">
+<text>电话</text>
+<text>number</text>
+</view>
+<view class="Con">
+<text>所属驾校</text>
+<text>选择驾校</text>
+</view>
+<view>
+<view class="Con">
+<text>状态</text>
+<text>白名单</text>
+</view>
+<text class="tips">(只有在白名单上的方可约课)</text>
+</view>
+<button class="tx-btn">提交白名单申请</button>
+</view>

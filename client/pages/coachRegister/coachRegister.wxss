@@ -1,0 +1,34 @@
+.container{
+  background-color: #EEE;
+  height: 100vh;
+}
+.title{
+  padding-top: 30rpx;
+}
+.title_text{
+  font-weight: bold;
+  font-size: 20px;
+  padding-right: 60rpx;
+  text-align: center;
+}
+.input1{
+   padding-top: 20rpx;
+}
+.input2{
+   padding-top: 30rpx;
+}
+.input3{
+  padding-top: 40rpx;
+}
+.radio{
+   padding-top: 40rpx;
+}
+.button{
+  padding-top: 40rpx;
+}
+.img{
+  height: 30px; 
+  width: 30px;  
+  position: right;
+  
+}

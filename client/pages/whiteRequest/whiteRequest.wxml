@@ -1,0 +1,12 @@
+<view class = "container">
+    <form bindSubmit='formsubmit'>
+        <text class = "request">请求信息如下：</text>
+         <checkbox-group bindchange="checkboxChange">
+        <label class="checkbox" wx:for="{{items}}" wx:for-item="item">
+            <checkbox name="yyy" value="{{item.value}}" checked="{{item.checked}}" /> {{item.name}}
+            <view class="td">{{item.value}}</view>
+        </label>
+    </checkbox-group>
+    <button form-type = "submit" class = "button" bindtap = "click">同意</button>
+    </form>
+</view>

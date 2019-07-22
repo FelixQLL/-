@@ -1,0 +1,8 @@
+<view class = "container">
+    <text class = "text">您可以通过发布</text>
+    <text class = "text2">预约来生成预约表</text>
+    <image class = "img" src = "/images/order.png" bindtap = "click1" />
+    <text class = "text">只有在您白名单中</text>
+    <text class = "text2">的学员才可以约课哦！</text>
+    <image class = "img" src = "/images/manage.png" bindtap = "click2" />
+</view>

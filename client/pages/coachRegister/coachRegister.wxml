@@ -1,0 +1,32 @@
+<view class = "container">
+  <view class = "title">
+    <text class = "title_text">请您完善相关信息</text>
+   <image bindtap = "img" class = "img" src = "/images/course.jpg" /> 
+  </view>
+    <form bindSubmit='formsubmit' bindReset='formreset'>
+      <view class = "input1">
+        <view>姓名： </view><input name="input" style="background-color: #FFFFFF; width: 250px; height: 40px" placeholder="请输入姓名" />
+     </view>
+     <view class = "input2">
+         <view>手机号： </view><input name="input" style="background-color: #FFFFFF;  width: 250px; height: 40px" placeholder="请输入手机号" />
+      </view>
+
+      <view class = "radio">
+         <view>性别：</view>
+         <radio-group name="radio-group">
+           <label><radio value="radio1"/>男</label>
+           <label><radio value="radio2"/>女</label>
+        </radio-group>
+     </view>
+
+     <view class = "input2">
+         <view>所属驾校：</view>
+         <input name="input" style="background-color: #FFFFFF;  width: 250px; height: 40px" placeholder="请输入所属驾校" />
+     </view>
+
+      <view class="button">
+        <button form-type="submit" style = "background: #86C166" bindtap = "click">提交</button>
+        <button form-type="reset" style = "background: #808F7C" >重置</button>
+    </view>
+    </form>
+</view>

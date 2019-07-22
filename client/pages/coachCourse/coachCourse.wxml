@@ -1,0 +1,25 @@
+<view class = "container">
+  <navigator url = "/pages/setClass/setClass">
+    <image class = "img" src = "/images/set.png" />
+  </navigator>
+
+  <swiper class="swiper" indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" current = "0" duration="500">    
+      <block wx:for="{{date}}" wx:for-index="index">    
+        <swiper-item>   
+  <view class="table">
+  <view class="tr bg-w">
+    <view class="th">时间</view>
+    <view class="th">剩余人数</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{code}}">
+    <view class="tr bg-g">
+      <view class="td">{{item.code}}</view>
+      <view class="td" bindtap = "click">{{item.text}}</view>
+    </view>
+  </block>
+</view>
+        </swiper-item>    
+      </block>    
+    </swiper>  
+
+</view>

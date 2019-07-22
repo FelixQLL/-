@@ -1,0 +1,16 @@
+.container{
+  background: #EEE;
+  height: 100vh;
+}
+.text{
+  font-size: 20px;
+  padding-top: 120rpx;
+}
+.text2{
+  font-size: 20px;
+  padding-bottom: 80rpx;
+}
+.img{
+  height: 140rpx;
+  width: 400rpx;
+}

@@ -1,0 +1,14 @@
+<view class = "container">
+     <view class="table">
+  <view class="tr bg-w">
+    <view class="th">姓名</view>
+    <view class="th">考试时间</view>
+  </view>
+  <block wx:for="{{listData}}" wx:key="{{text}}">
+    <view class="tr bg-g">
+      <view class="td">{{item.text}}</view>
+      <view class="td">{{item.time}}</view>
+    </view>
+  </block>
+</view>
+</view>

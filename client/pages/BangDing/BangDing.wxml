@@ -1,0 +1,10 @@
+<view class="container">
+
+<image class="about-banner" src='/images/sousuo.jpg'></image>
+
+<textarea  class="inputarea" maxlength="15" 
+placeholder="输入教练手机号码"></textarea>
+
+<button >绑定教练</button>
+
+</view>

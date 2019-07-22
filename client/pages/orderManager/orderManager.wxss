@@ -1,0 +1,24 @@
+.container{
+  background: #EEE;
+  height: 100vh;
+}
+.text{
+  font-size: 15px;
+  padding-top: 40rpx;
+  padding-bottom: 30rpx;
+}
+.picker{
+  width: 450rpx;
+  background: #FFF;
+}
+.order{
+  padding-top: 80rpx;
+}
+.Time{
+  text-align: center;
+}
+.button{
+  background: #86C166;
+  width: 320rpx;
+  margin-top: 60rpx;
+}

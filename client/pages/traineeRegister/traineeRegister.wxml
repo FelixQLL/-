@@ -1,0 +1,31 @@
+<view class = "container">
+    <form bindSubmit='formsubmit' bindReset='formreset'>
+      <view class = "input1">
+        <view>姓名： </view><input name="input" style="background-color: #FFFFFF;  width: 250px; height: 40px" placeholder="请输入姓名" />
+     </view>
+
+       <view class = "section">
+       <view class="section_title">考试时间(科二/科三):</view>
+      <picker name="datePicker" mode="date" value="{{date}}" start="2018年 01月 01日" end="2018年 12月 30日" 
+      style = "background: #FFF; height: 30px"  bindchange="bindTimeChange">
+        <view class="picker">
+         {{date}}
+        </view>
+      </picker>
+    </view>
+
+    <view class="bindCoach">
+    <view class = "section_title">我的教练：</view>
+          <picker name="selector" mode="selector" range="{{array}}" value="{{index}}"  style = "background: #FFF; height: 30px" bindchange="bindCoachChange">
+        <view class="picker">
+         {{array[index]}}
+        </view>
+      </picker>
+    </view>
+
+      <view class="button">
+        <button form-type="submit" style = "background: #86C166; width: 220px;">提交</button>
+        <button form-type="reset" style = "background: #808F7C; width: 220px">重置</button>
+    </view>
+    </form>
+</view>

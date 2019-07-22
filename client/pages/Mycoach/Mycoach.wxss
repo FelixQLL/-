@@ -1,0 +1,23 @@
+.tx-btn{
+  width: 475rpx;
+  }
+   .container{
+   height: 120vh;
+   background: #EEE;
+   display: flex ;
+
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+ }
+  .Con {
+   width: 500rpx;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.tips{
+  color: #eee;
+}

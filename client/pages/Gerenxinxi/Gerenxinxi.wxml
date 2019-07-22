@@ -1,0 +1,31 @@
+<view class="container">
+<view class="Con">
+<text class="left">姓名 </text>
+<textarea class="inputarea" maxlength="15" ></textarea>
+</view>
+<view class="Con">
+<text>考试时间</text>
+<view class="section">  
+  <picker mode="date" value="{{date}}" start="2018-01-01" end="2025-12-30" bindchange="bindDateChange">  
+    <view class="picker">  
+      日期: {{dates}}  
+    </view>  
+  </picker>  
+</view>  
+</view>
+
+<view>
+<text>我的教练:</text>
+<view class="Con">
+
+<image class="about-banner" src='/images/sousuo.jpg' catchtap='ontouch'></image>
+<text>教练名字</text>
+<button class="tx-btn" catchtap='onTouch' >绑定</button>
+<button class="tx-btn" catchtap='onTouch'>切换</button>
+</view>
+</view>
+
+
+
+<button class="tx-btn" bindtap = "click">保存</button>
+</view>

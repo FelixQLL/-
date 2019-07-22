@@ -1,0 +1,45 @@
+.inputarea{
+    font-size:40rpx;
+    height: 60rpx;
+    width:375rpx;
+    background: #fff;
+ }
+ .section{
+   background:#FFF;
+   margin:20rpx;
+   padding:20rpx
+
+}
+.tx-btn{
+  width: 275rpx;
+  }
+
+  .container{
+   height: 100vh;
+   background: #EEE;
+   display: flex ;
+
+   flex-direction: column;
+   justify-content: space-around;
+   align-items: center;
+ }
+ .Con {
+   width: 650rpx;
+
+  display: flex;
+
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+ .about-banner{
+   width: 75rpx;
+   height: 60rpx;
+   border-radius: 50%;
+ }
+ .tx-btn
+{
+  width: 150rpx;
+  line-height: 60rpx;
+}

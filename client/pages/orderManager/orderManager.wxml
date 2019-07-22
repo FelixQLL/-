@@ -1,0 +1,42 @@
+<view class = "container">
+
+ <form bindSubmit='formSubmit'>
+    <view class = "order">
+        <text class = "text">预约开始时间:</text>
+        <picker class="picker" name = "start" mode = "selector" range = "{{startTime}}" value = "index" >
+         <view class="Time">
+         {{startTime[index]}}
+        </view>
+        </picker>
+    </view>
+
+    <view class = "order">
+        <text class = "text">预约结束时间:</text>
+        <picker class="picker" name = "stop" mode = "selector" range = "{{startTime}}" value = "index" >
+         <view class="Time">
+         {{stopTime[index]}}
+        </view>
+        </picker>
+    </view>
+
+    <view class = "order">
+        <text class = "text">每日预约总人数:</text>
+        <picker class="picker" name = "number" mode = "selector" range = "{{number}}" value = "index" >
+         <view class="Time">
+         {{number[index]}}
+        </view>
+        </picker>
+    </view>
+
+    <view class = "order">
+        <text class = "text">重复:</text>
+        <picker class="picker" name = "repeat" mode = "selector" range = "{{weekdays}}" value = "index" >
+         <view class="Time">
+         {{weekdays[index]}}
+        </view>
+        </picker>
+    </view>
+
+    <button form-type = "submit" class = "button" bindtap = "click">发布</button>
+    </form>
+</view>

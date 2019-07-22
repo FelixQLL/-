@@ -1,0 +1,15 @@
+<view class = "container">
+  <text class = "HomePage_title">驾考约课</text><br />
+  <text class = "HomePage_text">您可以实现科二/科三训练预约</text>
+  <text class = "HomePage_text">首次使用需要编辑个人信息</text>
+
+  <navigator url="/pages/coachRegister/coachRegister" open-type="navigate" 
+hover-class="navigator-hover">
+    <button type="default" style = "width: 220px">我是教练</button>
+  </navigator>
+
+    <navigator url="/pages/Gerenxinxi/Gerenxinxi"  open-type="navigate" 
+hover-class="navigator-hover">
+    <button type="default" style = "width: 220px">我是学员</button>
+   </navigator>
+</view>

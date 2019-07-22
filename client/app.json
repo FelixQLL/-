@@ -1,0 +1,23 @@
+{
+  "pages": [    "pages/HomePage/HomePage",
+    "pages/coachRegister/coachRegister",
+    "pages/traineeRegister/traineeRegister",
+    "pages/setClass/setClass",
+    "pages/coachOrder/coachOrder",
+    "pages/coachCourse/coachCourse",
+    "pages/orderManager/orderManager",
+    "pages/whiteRequest/whiteRequest",
+    "pages/whiteManager/whiteManager",
+    "pages/Gerenxinxi/Gerenxinxi",
+    "pages/BangDing/BangDing",
+    "pages/Mycoach/Mycoach"
+  ],
+  "window": {
+    "backgroundColor": "#F6F6F6",
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#F6F6F6",
+    "navigationBarTitleText": "驾考约课",
+    "navigationBarTextStyle": "black"
+  },
+  "sitemapLocation": "sitemap.json"
+}
